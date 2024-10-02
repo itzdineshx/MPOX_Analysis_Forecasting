@@ -1,0 +1,34 @@
+# For data manipulation and analysis
+import pandas as pd
+# For computing with arrays and matrices
+import numpy as np
+# For visualization
+import matplotlib.pyplot as plt
+# For making statistical graphics
+import seaborn as sns
+# For creating interactive visualizations
+import plotly.express as px
+# For working with geospatial data
+import geopandas as gpd
+# For creating interactive maps
+import folium
+# For handling URLs and web data retrieval
+import urllib.request
+# For working with ZIP files
+import zipfile
+# For operating system dependent functionality
+import os
+# For time series analysis models
+from statsmodels.tsa.arima.model import ARIMA
+# For seasonal ARIMA models
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+# For plotting autocorrelation functions
+from statsmodels.graphics.tsaplots import plot_acf
+# For plotting partial autocorrelation functions
+from statsmodels.graphics.tsaplots import plot_pacf
+# For testing stationarity of time series
+from statsmodels.tsa.stattools import adfuller
+# To manage warnings in the output
+import warnings
+# Suppress warnings
+warnings.filterwarnings('ignore')
